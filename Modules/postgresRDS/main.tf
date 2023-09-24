@@ -24,7 +24,6 @@ resource "aws_db_instance" "elearning" {
   storage_type           = "gp2"
   engine                 = "postgres"
   engine_version         = "15.0"
-  parameter_group_name   = "default.postgres14"
   username               = var.db_user
   password               = var.db_password
   vpc_security_group_ids = [aws_security_group.elearning_db.id]
