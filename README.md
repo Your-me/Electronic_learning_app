@@ -1,4 +1,4 @@
-# Terraform AWS Infrastructure Project Using Terraform for CICD
+# Terraform AWS Infrastructure Project Using Jenkins for CICD
 
 This project uses Terraform to provision a comprehensive AWS infrastructure, including a VPC, PostgreSQL RDS, Route 53, Amazon Certificate Manager, Application Load Balancer, and Elastic Container Service (ECS). Jenkins is used for continuous integration and deployment.
 
