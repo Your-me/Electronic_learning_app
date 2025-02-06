@@ -29,7 +29,7 @@ This project aims to automate the deployment of a scalable and secure AWS infras
 
 - **modules/**: Contains reusable Terraform modules for each infrastructure component.
 - **environments/**: Contains environment-specific configurations (e.g., dev, staging, prod).
-- **jenkins/**: Contains Jenkins pipeline configuration.
+- **Jenkinsfile/**: Contains Jenkins pipeline configuration.
 - **variables.tf**: Defines input variables for the project.
 - **outputs.tf**: Defines output values for the project.
 
@@ -73,7 +73,7 @@ This project leverages Jenkins for continuous integration and deployment, automa
 ### Setting Up Jenkins Pipeline
 
 1. **Jenkinsfile**:
-   - The `Jenkinsfile` located in the `jenkins/` directory defines the CI/CD pipeline. It includes stages for initializing Terraform, planning changes, and applying configurations.
+   - The `Jenkinsfile` located in the `root` directory defines the CI/CD pipeline. It includes stages for initializing Terraform, planning changes, and applying configurations.
 
 2. **Create a Jenkins Pipeline Job**:
    - **Access Jenkins**: Log in to your Jenkins instance.
